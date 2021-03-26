@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CatTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-26T22:47:39" hostname="DESKTOP-3255GF9" time="0.017">
+  <properties/>
+  <testcase name="shouldLoveMaster()" classname="CatTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

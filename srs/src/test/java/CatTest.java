@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CatTest {
 
@@ -33,4 +33,19 @@ public class CatTest {
         assertEquals("This animal is a Cat", breed);
     }
 
+    @Test
+    public void shouldDontRoll() {
+        assertFalse(cat.roll());
+    }
+
+    @Test
+    public void catDoesNotWantEat() {
+        assertFalse(cat.eat());
+    }
+
+    @Test
+    public void shouldLoveMaster() {
+        String PurrLove = cat.sayLoveYourMaster("Jake");
+        assertEquals("*Purr to its Master Jake*.", PurrLove);
+    }
 }

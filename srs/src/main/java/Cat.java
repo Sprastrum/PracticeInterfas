@@ -11,18 +11,18 @@ public class Cat extends Animal implements IPet {
 
     @Override
     public boolean roll() {
-        System.out.println("Es demasiado gordo para girar.");
+        System.out.println("It's too fat to roll.");
         return false;
     }
 
     @Override
     public String sayLoveYourMaster(String masterName) {
-        return String.format("*Ronronea a su Maestro %s*.", masterName);
+        return String.format("*Purr to its Master %s*.", masterName);
     }
 
     @Override
     public boolean eat() {
-        System.out.println("Está a dieta, así que recibe comida especial que no quiere comer.");
+        System.out.println("He is on a diet, so he receives special food that he does not want to eat.");
         return false;
     }
 }
